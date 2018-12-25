@@ -5,6 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/neetmitotsu/SpringCloudConfig
+          uri: https://github.com/NeetMitotsu/Spring-cloud-config
           search-paths: respo
       label: master
+server:
+  port: 8770
