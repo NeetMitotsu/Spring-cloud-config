@@ -5,8 +5,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/NeetMitotsu/Spring-cloud-config/tree/master/config-server
+          uri: https://github.com/NeetMitotsu/Spring-cloud-config
           search-paths: respo
       label: master
 server:
   port: 8770
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8773/eureka/
