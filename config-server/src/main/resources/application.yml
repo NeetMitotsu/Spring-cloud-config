@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/NeetMitotsu/Spring-cloud-config
+          uri: https://github.com/NeetMitotsu/Spring-cloud-config/tree/master/config-server
           search-paths: respo
       label: master
 server:
